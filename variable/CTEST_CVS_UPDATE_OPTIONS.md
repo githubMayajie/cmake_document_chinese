@@ -1,0 +1,6 @@
+  
+
+# CTEST_CVS_UPDATE_OPTIONS  
+Specify the CTest CVSUpdateOptions setting
+in a ctest(1) dashboard client script.  
+

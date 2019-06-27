@@ -1,0 +1,8 @@
+  
+
+# CMAKE_BUILD_RPATH_USE_ORIGIN  
+Whether to use relative paths for the build RPATH.  
+
+This is used to initialize the BUILD_RPATH_USE_ORIGIN target
+property for all targets, see that property for more details.  
+

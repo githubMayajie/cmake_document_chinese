@@ -1,0 +1,6 @@
+  
+
+# CTEST_DROP_SITE_CDASH  
+Specify the CTest IsCDash setting
+in a ctest(1) dashboard client script.  
+

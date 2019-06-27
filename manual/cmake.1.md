@@ -6,14 +6,14 @@ https://cmake.org/cmake/help/latest/manual/cmake.1.html
 ## <h2 id="Synopsis">概要</h2>
 
 [生成构建系统](#Generate_a_Project_Buildsystem)
-```sh
+```cmake
 cmake [<options>] <path-to-source>
 cmake [<options>] <path-to-existing-build>
 cmake [<options>] -S <path-to-source> -B <path-to-build>
 ```
 
 [build项目](#Build_a_Project)
-```sh
+```cmake
 cmake --build <dir> [<options>] [-- <build-tool-options>]
 ```
 
@@ -23,27 +23,27 @@ cmake --install <dir> [<options>]
 ```
 
 [打开项目](#Open_a_Project)
-```sh
+```cmake
 cmake --open <dir>
 ```
 
 [运行脚本](#Run_a_Script)
-```sh
+```cmake
 cmake [{-D <var>=<value>}...] -P <cmake-script-file>
 ```
 
 [运行命令工具](#Run_a_Command_Line_Tool)
-```sh
+```cmake
 cmake -E <command> [<options>]
 ```
 
 [运行findPackage工具](#Run_the_Find_Package_Tool)
-```sh
+```cmake
 cmake --find-package [<options>]
 ```
 
 [help](#View_Help)
-```sh
+```cmake
 cmake --help[-<topic>]
 ```
 

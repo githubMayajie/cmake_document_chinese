@@ -1,0 +1,20 @@
+  
+
+# CMAKE_ANDROID_ARCH_ABI  
+When Cross Compiling for Android, this variable specifies the
+target architecture and ABI to be used.  Valid values are:  
+
+
+arm64-v8a
+armeabi-v7a
+armeabi-v6
+armeabi
+mips
+mips64
+x86
+x86_64
+  
+
+See also the CMAKE_ANDROID_ARM_MODE and
+CMAKE_ANDROID_ARM_NEON variables.  
+

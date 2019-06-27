@@ -1,0 +1,12 @@
+  
+
+# VS_DEBUGGER_COMMAND_ARGUMENTS  
+Sets the local debugger command line arguments for Visual Studio C++ targets.
+The property value may use
+generator expressions.
+This is defined in ```<LocalDebuggerCommandArguments>``` in the Visual Studio
+project file.  
+
+This property only works for Visual Studio 2010 and above;
+it is ignored on other generators.  
+

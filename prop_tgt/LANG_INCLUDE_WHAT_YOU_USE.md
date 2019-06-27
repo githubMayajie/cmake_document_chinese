@@ -1,0 +1,14 @@
+  
+
+# ```<LANG>```_INCLUDE_WHAT_YOU_USE  
+This property is implemented only when ```<LANG>``` is C or CXX.  
+
+Specify a semicolon-separated list containing a command
+line for the include-what-you-use tool.  The Makefile Generators
+and the Ninja generator will run this tool along with the
+compiler and report a warning if the tool reports any problems.  
+
+This property is initialized by the value of
+the CMAKE_```<LANG>```_INCLUDE_WHAT_YOU_USE variable if it is set
+when a target is created.  
+

@@ -9,14 +9,14 @@ import shutil
 import re
 import io
 
-fileName = "cmake-variables.7.html"
-remotePath = "https://cmake.org/cmake/help/latest/manual/cmake-variables.7.html"
+fileName = "cmake-env-variables.7.html"
+remotePath = "https://cmake.org/cmake/help/latest/manual/cmake-env-variables.7.html"
 
 urlMain = "https://cmake.org/cmake/help/latest/manual/"
 
 
 currentPath = ""
-mainMdFileName = "cmake-variables.7.md"
+mainMdFileName = "cmake-env-variables.7.md"
 mainMdFilePath = ""
 mainMDFileDir = "manual"
 
@@ -26,7 +26,6 @@ tempDir = "temp"
 allsubUrl = []
 
 
-def download(url,filePath):
 def download(url,filePath):
     try:
         # headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}

@@ -1,15 +1,15 @@
-  
-
 # cmake_parse_arguments  
-Parse function or macro arguments.  
+解析函数或者宏参数
 
-cmake_parse_arguments(```<prefix>``` ```<options>``` ```<one_value_keywords>```
-                      ```<multi_value_keywords>``` ```<args>```...)
+```cmake
+cmake_parse_arguments(<prefix> <options> <one_value_keywords>
+                      <multi_value_keywords> <args>...)
 
-cmake_parse_arguments(PARSE_ARGV ```<N>``` ```<prefix>``` ```<options>```
-                      ```<one_value_keywords>``` ```<multi_value_keywords>```)
+cmake_parse_arguments(PARSE_ARGV <N> <prefix> <options>
+                      <one_value_keywords> <multi_value_keywords>)
+```
 
-  
+此命令用于宏或函数。 它处理给予该宏或函数的参数，并定义一组包含各个选项值的变量。  
 
 This command is for use in macros or functions.
 It processes the arguments given to that macro or function,

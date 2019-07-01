@@ -1,14 +1,18 @@
-# <h1 id = "id2">cmake-commands(7)</h1>
-Contents
+# cmake-commands(7)
 
-   - [cmake-commands(7)](#cmake-commands-7)
-      - [Scripting Commands](#scripting-commands)
-      - [Project Commands](#project-commands)
-      - [CTest Commands](#ctest-commands)
-      - [Deprecated Commands](#deprecated-commands)
-## <h2 id = "id3">Scripting Commands</h2>
-These commands are always available.
+## source 
+https://cmake.org/cmake/help/latest/manual/cmake-commands.7.html
 
+
+## 目录
+   - cmake-commands(7)
+      - 脚本命令
+      - 项目命令
+      - CTest命令  
+      - 废弃命令
+
+## 脚本命令
+以下命令总是可用
    - [break](../command/break.md)
    - [cmake_host_system_information](../command/cmake_host_system_information.md)
    - [cmake_minimum_required](../command/cmake_minimum_required.md)
@@ -55,9 +59,8 @@ These commands are always available.
    - [unset](../command/unset.md)
    - [variable_watch](../command/variable_watch.md)
    - [while](../command/while.md)
-## <h2 id = "id4">Project Commands</h2>
-These commands are available only in CMake projects.
-
+## 项目命令
+以下命令仅限cmake项目中可用  
    - [add_compile_definitions](../command/add_compile_definitions.md)
    - [add_compile_options](../command/add_compile_options.md)
    - [add_custom_command](../command/add_custom_command.md)
@@ -103,9 +106,9 @@ These commands are available only in CMake projects.
    - [target_sources](../command/target_sources.md)
    - [try_compile](../command/try_compile.md)
    - [try_run](../command/try_run.md)
-## <h2 id = "id5">CTest Commands</h2>
-These commands are available only in CTest scripts.
 
+## CTest命令
+以下命令仅限于CTest中可用
    - [ctest_build](../command/ctest_build.md)
    - [ctest_configure](../command/ctest_configure.md)
    - [ctest_coverage](../command/ctest_coverage.md)
@@ -119,12 +122,9 @@ These commands are available only in CTest scripts.
    - [ctest_test](../command/ctest_test.md)
    - [ctest_update](../command/ctest_update.md)
    - [ctest_upload](../command/ctest_upload.md)
-## <h2 id = "id6">Deprecated Commands</h2>
-These commands are deprecated and are only made available to maintain
-backward compatibility.  The documentation of each command states the
-CMake version in which it was deprecated.  Do not use these commands
-in new code.
 
+## 废弃命令
+这些命令已弃用，仅可用于保持向后兼容性。 每个命令的文档都说明了不推荐使用的CMake版本。 不要在新代码中使用这些命令。  
    - [build_name](../command/build_name.md)
    - [exec_program](../command/exec_program.md)
    - [export_library_dependencies](../command/export_library_dependencies.md)

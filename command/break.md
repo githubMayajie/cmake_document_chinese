@@ -1,13 +1,13 @@
   
-
 # break  
-Break from an enclosing foreach or while loop.  
 
+从foreach或while循环中跳出。
+
+```cmake
 break()
+```
 
-  
+从[foreach](foreach.md)或[while](while.md)循环中跳出。
 
-Breaks from an enclosing foreach() or while() loop.  
-
-See also the continue() command.  
+更多参考[continue()](continue.md)命令
 
